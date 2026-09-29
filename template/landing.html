@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <script src="../GetWeather.js" defer></script>
+</head>
+<body>
+    <main>
+        <nav>
+            <ul>
+                <li><a href="landing.html">Landing</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="registration.html">Register</a></li>
+            </ul>
+        </nav>    
+
+        
+        
+        <div class="weather-card-container">
+            <div class="weather-card" id="monday" data-day-card>
+                <h1 class="day-name">Monday</h1>
+                <p>Temp: <span class="temperature">Loading...</span></p>
+                <p>Feels like: <span class="feels-like">Loading...</span></p>
+                <p>Conditions: <span class="conditions">Loading...</span></p>
+                <button class="weather-card-button"> details </button>
+                <div class="weather-card-details">
+                    <p>
+                        lorum ipsum
+                    </p>
+                </div>
+            </div>
+
+            <div class="weather-card" id="tuesday" data-day-card>
+                <h1 class="day-name">Tuesday</h1>
+                <p>Temp: <span class="temperature">Loading...</span></p>
+                <p>Feels like: <span class="feels-like">Loading...</span></p>
+                <p>Conditions: <span class="conditions">Loading...</span></p>
+            </div>
+            <div class="weather-card" id="wednesday" data-day-card>
+                <h1 class="day-name">Wednesday</h1>
+                <p>Temp: <span class="temperature">Loading...</span></p>
+                <p>Feels like: <span class="feels-like">Loading...</span></p>
+                <p>Conditions: <span class="conditions">Loading...</span></p>
+            </div>
+            <div class="weather-card" id="thursday" data-day-card>
+                <h1 class="day-name">Thursday</h1>
+                <p>Temp: <span class="temperature">Loading...</span></p>
+                <p>Feels like: <span class="feels-like">Loading...</span></p>
+                <p>Conditions: <span class="conditions">Loading...</span></p>
+            </div>
+            <div class="weather-card" id="friday" data-day-card>
+                <h1 class="day-name">Friday</h1>
+                <p>Temp: <span class="temperature">Loading...</span></p>
+                <p>Feels like: <span class="feels-like">Loading...</span></p>
+                <p>Conditions: <span class="conditions">Loading...</span></p>
+            </div>
+            <div class="weather-card" id="saturday" data-day-card>
+                <h1 class="day-name">Saturday</h1>
+                <p>Temp: <span class="temperature">Loading...</span></p>
+                <p>Feels like: <span class="feels-like">Loading...</span></p>
+                <p>Conditions: <span class="conditions">Loading...</span></p>
+            </div>
+            <div class="weather-card" id="sunday" data-day-card>
+                <h1 class="day-name">Sunday</h1>
+                <p>Temp: <span class="temperature">Loading...</span></p>
+                <p>Feels like: <span class="feels-like">Loading...</span></p>
+                <p>Conditions: <span class="conditions">Loading...</span></p>
+                <button> Details </button>
+            </div>
+          
+        </div>
+        <div class="weather-modal" id="weatherModal">
+            <div class="weather-modal-box">
+                <button class="weather-modal-close" id="weatherModalClose">
+                    &times;
+                </button>
+
+            <div id="weatherModalContent"></div>
+        </div>
+</div>
+        <div class="logo">
+            <img src="../images/icon.png" alt="App Icon">
+        </div>
+    </main>    
+   
+    <footer>
+        <p1>
+            Contact weather@helpline.co.uk or call us at 1-800-Help!
+        </p1>
+    </footer>
+</body>  
